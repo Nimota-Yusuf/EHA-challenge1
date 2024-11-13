@@ -1,0 +1,187 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0"> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+        } 
+        .text{
+            font-size: 16px;
+            font-family: monospace;
+            font-style: italic;
+            font-weight: 600;
+        }
+        h1{
+            color: blueviolet;
+        }
+        header { 
+            background-color: #ffffff; 
+            color: #000000; 
+            text-align: center; 
+        } 
+
+
+        a {  
+            text-decoration: none; 
+            padding: 10px; 
+            margin-right: 10px; 
+            display: inline-block;
+            color: rgb(206, 204, 204);
+        } 
+        .link-container{
+            background-color: black;
+        }
+        ul li a{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+        .container { 
+            display: flex; 
+            justify-content: space-between; 
+            max-width: 95%; 
+            margin: 0 auto; 
+            padding: 20px; 
+        } 
+
+        article p { 
+            text-align: justify; 
+        } 
+
+        main { 
+            flex: 2; 
+        } 
+
+        article { 
+            margin-bottom: 20px; 
+            padding: 10px 20px; 
+            border: 1px solid rgb(145, 145, 145); 
+            margin-right: 10px; 
+        } 
+
+        aside { 
+            flex: 1; 
+            background-color: #c9c9c9; 
+            padding: 10px; 
+        } 
+
+        footer { 
+            background-color: #242424; 
+            color: #fff; 
+            text-align: center; 
+            position: fixed; 
+            bottom: 0; 
+            width: 100%; 
+        } 
+    </style> 
+    <title>My Blogging Website</title> 
+</head> 
+
+<body> 
+    <header> 
+        <p class="text">Learn with Me</p> 
+        <h1>Journey from novice to advance Front-End Developer</h1> 
+    </header> 
+
+    <div class="link-container">
+        <a href="15_chalenge.html">Home</a> 
+        <a href="#html">HTML</a> 
+        <a href="#css">CSS</a> 
+        <a href="#javascript">JavaScript</a> 
+        <a href="#react">ReactJS</a> 
+    </div>
+
+
+    <div class="container"> 
+        <main> 
+            <article id="html"> 
+                <h2>HTML</h2> 
+                <p class="post-meta"> 
+                    Published on September 05, 2024 by Neemah
+                </p> 
+                <p> 
+                    HTML stands for HyperText Markup Language. It is 
+                    used to design the web pages. With the help of HTML, 
+                    you can create a complete website structure. HTML 
+                    is the combination of Hypertext and Markup language. 
+                    Hypertext defines the link between the web pages 
+                    and markup language defines the text document within 
+                    the tag that define the structure of web pages. 
+                </p> 
+            </article> 
+
+            <article id="css"> 
+                <h2>CSS</h2> 
+                <p class="post-meta"> 
+                    Published on September 05, 2024 by Neemah 
+                </p> 
+                <p> 
+                    CSS (Cascading Style Sheets) is used to styles web 
+                    pages. Cascading Style Sheets are fondly referred 
+                    to as CSS. The reason for using this is to simplify 
+                    the process of making web pages presentable. It allows 
+                    you to apply styles on web pages. More importantly, 
+                    it enables you to do this independently of the HTML 
+                    that makes up each web page. 
+                </p> 
+            </article> 
+
+            <article id="javascript"> 
+                <h2>JavaScript</h2> 
+                <p class="post-meta"> 
+                    Published on October 05, 2024 by Neemah 
+                </p> 
+                <p> 
+                    JavaScript (JS) is the most popular lightweight, 
+                    interpreted compiled programming language. It can 
+                    be used for both Client-side as well as Server-side 
+                    developments. JavaScript also known as a scripting 
+                    language for web pages. This JavaScript Tutorial is 
+                    designed to help both beginners and experienced 
+                    professionals master the fundamentals of JavaScript 
+                    and unleash their creativity to build powerful web 
+                    applications. From basic syntax and data types to 
+                    advanced topics such as object-oriented programming 
+                    and DOM manipulation. 
+                </p> 
+            </article> 
+
+            <article id="react"> 
+                <h2>ReactJS</h2> 
+                <p class="post-meta"> 
+                    Published on November 05, 2024 by Neemah
+                </p> 
+                <p> 
+                    ReactJS is a declarative, efficient, and flexible 
+                    JavaScript library for building user interfaces. 
+                    It is an open-source, component-based front-end 
+                    library that is responsible only for the view layer 
+                    of the application. ReactJS is not a framework, it 
+                    is just a library developed by Facebook to solve 
+                    some problems that we were facing earlier. 
+                </p> 
+            </article> 
+        </main> 
+
+        <aside> 
+            <h2>Recent Posts</h2> 
+            <ul> 
+                <li><a href="#html">HTML</a></li> 
+                <li><a href="#css">CSS</a></li> 
+                <li><a href="#javascript">JavaScript</a></li> 
+                <li><a href="#react">ReactJS</a></li> 
+            </ul> 
+        </aside> 
+    </div> 
+
+    <footer> 
+        <p>© 2023 Your Blog Name. All rights reserved.</p> 
+    </footer> 
+</body> 
+
+</html>
